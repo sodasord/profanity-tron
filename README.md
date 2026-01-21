@@ -70,7 +70,6 @@ Usage: ./profanity [OPTIONS]
 
   Output control:
     --output            The file to output the results to
-    --post              The url to post the results to
 
 Examples:
 
@@ -115,8 +114,8 @@ Fbi Warning:
 #### 单个地址
 
 ```bash
-# 匹配前3后5
-profanity.exe --matching TUqEg3dzVEJNQSVW2HY98z5X8SBdhmao8D --prefix-count 3 --suffix-count 5
+# 匹配前2后4
+profanity.exe --matching TUqEg3dzVEJNQSVW2HY98z5X8SBdhmao8D --prefix-count 2 --suffix-count 4
 ```
 
 #### 文件
