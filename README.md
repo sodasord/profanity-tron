@@ -1,6 +1,6 @@
 # profanity-tron
 
-![](https://img.shields.io/github/actions/workflow/status/sponsord/profanity-tron/release.yml)
+![](https://img.shields.io/github/actions/workflow/status/sodasord/profanity-tron/release.yml)
 ![](https://img.shields.io/badge/baseon-gpu-yellowgreen.svg)
 ![](https://img.shields.io/badge/language-c,c++-orange.svg)
 ![](https://img.shields.io/badge/platform-windows,linux-yellow.svg)
@@ -86,7 +86,7 @@ About:
 
   Profanity is a vanity address generator for Tron: https://tron.network
   The software is modified based on ethereum profanity: https://github.com/johguse/profanity
-  Please make sure the program you are running is download from: https://github.com/sponsord/profanity-tron
+  Please make sure the program you are running is download from: https://github.com/sodasord/profanity-tron
   Author: telegram -> @dontond
 
 Fbi Warning:
