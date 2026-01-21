@@ -122,7 +122,7 @@ profanity.exe --matching TUqEg3dzVEJNQSVW2HY98z5X8SBdhmao8D --prefix-count 2 --s
 
 ```bash
 # 匹配后8
-profanity.exe --matching profanity.txt --suffix-count 8 --quit-count 100
+profanity.exe --matching profanity.txt --suffix-count 8 --quit-count 10
 ```
 
 匹配文件里面，目前支持两种写法，可参考内置 `profanity.txt`。举个例子：
