@@ -142,7 +142,7 @@ TUqEg3dzVEJNQSVW2HY98z5X8SBdhmao8D
 
 > 这里主要讲讲如何构建 `windows` 平台的 `exe 可执行程序`。`mac` 机器理论上可直接 `make`，然后执行就行。
 
-> 本人在开发的时候，用的是本地的 `NVIDIAGeForce RTX 3080` + `windows11`。
+> 本人在开发的时候，用的是本地的 `NVIDIA GeForce RTX 3080` + `windows11`。
 
 
 ### 安装显卡驱动
@@ -181,11 +181,11 @@ TUqEg3dzVEJNQSVW2HY98z5X8SBdhmao8D
 
 ## 速度
 
-本程序使用配置：`NVIDIAGeForce RTX 3080`。运行速度在 `2.2亿 H/s` 左右：
+本程序使用配置：`NVIDIA GeForce RTX 3080`。运行速度在 `2.2亿 H/s` 左右：
 
 <img width="100%" src="screenshot/demo.png?raw=true"/>
 
-> 本程序除了在开发机，以及上述 `NVIDIAGeForce RTX 3080` 显卡上经过测试外，未在其它设备上进行速度测试。
+> 本程序除了在开发机，以及上述 `NVIDIA GeForce RTX 3080` 显卡上经过测试外，未在其它设备上进行速度测试。
 
 > 请不要纠结于对比各种设备、各种平台差异化的运行速度。没意义。
 
