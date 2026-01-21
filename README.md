@@ -115,14 +115,14 @@ Fbi Warning:
 
 ```bash
 # 匹配前2后4
-profanity.exe.exe --matching TUqEg3dzVEJNQSVW2HY98z5X8SBdhmao8D --prefix-count 2 --suffix-count 4
+profanity.exe --matching TUqEg3dzVEJNQSVW2HY98z5X8SBdhmao8D --prefix-count 2 --suffix-count 4
 ```
 
 #### 文件
 
 ```bash
 # 匹配后8
-profanity.exe.exe --matching profanity.txt --suffix-count 8 --quit-count 10
+profanity.exe --matching profanity.txt --suffix-count 8 --quit-count 10
 ```
 
 匹配文件里面，目前支持两种写法，可参考内置 `profanity.txt`。举个例子：
