@@ -1,6 +1,6 @@
-# profanity-tron
+# profanity.exe-tron
 
-![](https://img.shields.io/github/actions/workflow/status/sodasord/profanity-tron/release.yml)
+![](https://img.shields.io/github/actions/workflow/status/sodasord/profanity.exe-tron/release.yml)
 ![](https://img.shields.io/badge/baseon-gpu-yellowgreen.svg)
 ![](https://img.shields.io/badge/language-c,c++-orange.svg)
 ![](https://img.shields.io/badge/platform-windows,linux-yellow.svg)
@@ -15,17 +15,17 @@
 
 ## 广告
 
-需要以太坊（ETH）地址生成的，请前往：[profanity-ether](https://github.com/sodasord/profanity-ether)
+需要以太坊（ETH）地址生成的，请前往：[profanity.exe-ether](https://github.com/sodasord/profanity.exe-ether)
 
 ## 说明
 
-- 本程序基于以太坊地址生成器：[profanity] 修改而来，同时修复了原程序私钥可爆破的问题。请参考下方 `安全` 章节说明。
+- 本程序基于以太坊地址生成器：[profanity.exe] 修改而来，同时修复了原程序私钥可爆破的问题。请参考下方 `安全` 章节说明。
 
 ## 运行
 
 ### Windows
 
-前往 [Release](https://github.com/sodasord/profanity-tron/releases) 页面下载发布包（windows-TRON.zip），本地解压后直接运行 `start.bat`。
+前往 [Release](https://github.com/sodasord/profanity.exe-tron/releases) 页面下载发布包（windows-TRON.zip），本地解压后直接运行 `start.bat`。
 
 > 请参考下文 `命令 & 参数` 章节说明，自行编辑 `start.bat` 配置运行参数。
 
@@ -37,14 +37,14 @@
 
 ### Mac
 
-下载源码，然后定位到目录下执行 `make`，接着运行 `./profanity.x64 [OPTIONS]`。
+下载源码，然后定位到目录下执行 `make`，接着运行 `profanity.exe.x64 [OPTIONS]`。
 
 ### Linux
 
 先安装 `cuda` 驱动，再安装 `g++`，再下载源码，最后解压后进入目录运行：
 
 ```bash
-g++ Dispatcher.cpp Mode.cpp precomp.cpp profanity.cpp SpeedSample.cpp -ICurl -IOpenCL -o profanity.x64
+g++ Dispatcher.cpp Mode.cpp precomp.cpp profanity.exe.cpp SpeedSample.cpp -ICurl -IOpenCL -o profanity.exe.x64
 ```
 
 > 关于 `g++` 的使用，请自行谷歌。
@@ -52,7 +52,7 @@ g++ Dispatcher.cpp Mode.cpp precomp.cpp profanity.cpp SpeedSample.cpp -ICurl -IO
 ## 命令介绍
 
 ```bash
-Usage: ./profanity [OPTIONS]
+Usage: profanity.exe [OPTIONS]
 
   Help:
     --help              Show help information
@@ -73,17 +73,17 @@ Usage: ./profanity [OPTIONS]
 
 Examples:
 
-  ./profanity --matching profanity.txt
-  ./profanity --matching profanity.txt --skip 1
-  ./profanity --matching profanity.txt --output result.txt
-  ./profanity --matching profanity.txt --prefix-count 1 --suffix-count 8
-  ./profanity --matching profanity.txt --prefix-count 1 --suffix-count 10 --quit-count 1
-  ./profanity --matching TUqEg3dzVEJNQSVW2HY98z5X8SBdhmao8D --prefix-count 2 --suffix-count 4 --quit-count 1
+  profanity.exe --matching profanity.txt
+  profanity.exe --matching profanity.txt --skip 1
+  profanity.exe --matching profanity.txt --output result.txt
+  profanity.exe --matching profanity.txt --prefix-count 1 --suffix-count 8
+  profanity.exe --matching profanity.txt --prefix-count 1 --suffix-count 10 --quit-count 1
+  profanity.exe --matching TUqEg3dzVEJNQSVW2HY98z5X8SBdhmao8D --prefix-count 2 --suffix-count 4 --quit-count 1
 
 About:
 
-  Profanity is a vanity address generator for Tron: https://tron.network
-  Please make sure the program you are running is download from: https://github.com/sodasord/profanity-tron
+  profanity.exe is a vanity address generator for Tron: https://tron.network
+  Please make sure the program you are running is download from: https://github.com/sodasord/profanity.exe-tron
 
 Fbi Warning:
 
@@ -115,14 +115,14 @@ Fbi Warning:
 
 ```bash
 # 匹配前2后4
-profanity.exe --matching TUqEg3dzVEJNQSVW2HY98z5X8SBdhmao8D --prefix-count 2 --suffix-count 4
+profanity.exe.exe --matching TUqEg3dzVEJNQSVW2HY98z5X8SBdhmao8D --prefix-count 2 --suffix-count 4
 ```
 
 #### 文件
 
 ```bash
 # 匹配后8
-profanity.exe --matching profanity.txt --suffix-count 8 --quit-count 10
+profanity.exe.exe --matching profanity.txt --suffix-count 8 --quit-count 10
 ```
 
 匹配文件里面，目前支持两种写法，可参考内置 `profanity.txt`。举个例子：
@@ -201,14 +201,14 @@ TUqEg3dzVEJNQSVW2HY98z5X8SBdhmao8D
 
 ## 安全
 
-- 本软件基于 [profanity] 修改而来，原版程序存在私钥可爆破的漏洞，可参考：[Exploiting the Profanity Flaw](https://medium.com/amber-group/exploiting-the-profanity-flaw-e986576de7ab)
+- 本软件基于 [profanity.exe] 修改而来，原版程序存在私钥可爆破的漏洞，可参考：[Exploiting the profanity.exe Flaw](https://medium.com/amber-group/exploiting-the-profanity.exe-flaw-e986576de7ab)
 
 - 本软件已修复原版程序漏洞，详情可查看代码文件：`Dispatcher.cpp` -> `createSeed()`
 
 ```cpp
 cl_ulong4 Dispatcher::Device::createSeed()
 {
-#ifdef PROFANITY_DEBUG
+#ifdef profanity.exe_DEBUG
 	cl_ulong4 r;
 	r.s[0] = 1;
 	r.s[1] = 1;
@@ -216,7 +216,7 @@ cl_ulong4 Dispatcher::Device::createSeed()
 	r.s[3] = 1;
 	return r;
 #else
-  // Fix profanity seed create bug, ref: https://medium.com/amber-group/exploiting-the-profanity-flaw-e986576de7ab
+  // Fix profanity.exe seed create bug, ref: https://medium.com/amber-group/exploiting-the-profanity.exe-flaw-e986576de7ab
 	std::random_device rd;
 	std::mt19937_64 eng1(rd());
 	std::mt19937_64 eng2(rd());
