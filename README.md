@@ -44,7 +44,7 @@
 先安装 `cuda` 驱动，再安装 `g++`，再下载源码，最后解压后进入目录运行：
 
 ```bash
-g++ Dispatcher.cpp Mode.cpp precomp.cpp profanity.exe.cpp SpeedSample.cpp -ICurl -IOpenCL -o profanity.exe.x64
+g++ Dispatcher.cpp Mode.cpp precomp.cpp profanity.exe.cpp SpeedSample.cpp -ICurl -IOpenCL -o profanity
 ```
 
 > 关于 `g++` 的使用，请自行谷歌。
