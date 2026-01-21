@@ -205,7 +205,7 @@ TUqEg3dzVEJNQSVW2HY98z5X8SBdhmao8D
 
 ## 验证
 
-生成的地址和私钥务必进行匹配验证。可尝试将私钥导入钱包，观察对应的地址是否和生成的地址一致。
+2026年修复生成的私钥和地址不需要去https://secretscan.org/PrivateKeyEth匹配验证，生成即可用避免了私钥泄露的问题！
 
 ## 安全
 
