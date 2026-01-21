@@ -25,7 +25,7 @@
 
 ### Windows
 
-前往 [Release](https://github.com/sodasord/profanity-tron/releases) 页面下载发布包（window.zip），本地解压后直接运行 `start.bat`。
+前往 [Release](https://github.com/sodasord/profanity-tron/releases) 页面下载发布包（windows-TRON.zip），本地解压后直接运行 `start.bat`。
 
 > 请参考下文 `命令 & 参数` 章节说明，自行编辑 `start.bat` 配置运行参数。
 
