@@ -201,7 +201,7 @@ TUqEg3dzVEJNQSVW2HY98z5X8SBdhmao8D
 
 ## 安全
 
-- 本软件基于 [profanity] 修改而来，原版程序存在私钥可爆破的漏洞，可参考：[Exploiting the profanity.exe Flaw](https://medium.com/amber-group/exploiting-the-profanity-flaw-e986576de7ab)
+- 本软件基于 [profanity] 修改而来，原版程序存在私钥可爆破的漏洞，可参考：[Exploiting the profanity Flaw](https://medium.com/amber-group/exploiting-the-profanity-flaw-e986576de7ab)
 
 - 本软件已修复原版程序漏洞，详情可查看代码文件：`Dispatcher.cpp` -> `createSeed()`
 
