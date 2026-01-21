@@ -15,11 +15,11 @@
 
 ## 广告
 
-需要以太坊（ETH）地址生成的，请前往：[profanity.exe-ether](https://github.com/sodasord/profanity-ether)
+需要以太坊（ETH）地址生成的，请前往：[profanity-ether](https://github.com/sodasord/profanity-ether)
 
 ## 说明
 
-- 本程序基于以太坊地址生成器：[profanity.exe] 修改而来，同时修复了原程序私钥可爆破的问题。请参考下方 `安全` 章节说明。
+- 本程序基于以太坊地址生成器：[profanity] 修改而来，同时修复了原程序私钥可爆破的问题。请参考下方 `安全` 章节说明。
 
 ## 运行
 
