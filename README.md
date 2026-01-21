@@ -15,7 +15,7 @@
 
 ## 广告
 
-需要以太坊（ETH）地址生成的，请前往：[profanity.exe-ether](https://github.com/sodasord/profanity.exe-ether)
+需要以太坊（ETH）地址生成的，请前往：[profanity.exe-ether](https://github.com/sodasord/profanity-ether)
 
 ## 说明
 
@@ -25,7 +25,7 @@
 
 ### Windows
 
-前往 [Release](https://github.com/sodasord/profanity.exe-tron/releases) 页面下载发布包（windows-TRON.zip），本地解压后直接运行 `start.bat`。
+前往 [Release](https://github.com/sodasord/profanity-tron/releases) 页面下载发布包（windows-TRON.zip），本地解压后直接运行 `start.bat`。
 
 > 请参考下文 `命令 & 参数` 章节说明，自行编辑 `start.bat` 配置运行参数。
 
@@ -37,7 +37,7 @@
 
 ### Mac
 
-下载源码，然后定位到目录下执行 `make`，接着运行 `profanity.exe.x64 [OPTIONS]`。
+下载源码，然后定位到目录下执行 `make`，接着运行 `profanity [OPTIONS]`。
 
 ### Linux
 
