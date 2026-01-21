@@ -31,9 +31,9 @@
 
 > 运行的设备如果有集成显卡，请添加 `--skip 1` 把集成显卡过滤之，否则可能会导致：1. 跑不起来，2. 生成的地址和私钥不匹配。
 
-> 如果提示 `vcruntime140_1.dll` 相关异常，请安装 `Visual C++ Redistributable` 应用程序，官方下载链接：[https://www.microsoft.com/zh-cn/download/details.aspx?id=48145&751be11f-ede8-5a0c-058c-2ee190a24fa6=True))
+> 如果提示 `vcruntime140_1.dll` 相关异常，请安装 `Visual C++ Redistributable` 应用程序，官方下载链接：[https://www.microsoft.com/zh-cn/download/details.aspx?id=48145&751be11f-ede8-5a0c-058c-2ee190a24fa6=True]
 
-> 如果提示 `OpenCL 找不到`，请安装 `cuda` 驱动。 
+> 如果提示 `OpenCL 找不到`，请安装 `英伟达显卡` 驱动。 
 
 ### Mac
 
