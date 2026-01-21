@@ -142,11 +142,8 @@ TUqEg3dzVEJNQSVW2HY98z5X8SBdhmao8D
 
 > 这里主要讲讲如何构建 `windows` 平台的 `exe 可执行程序`。`mac` 机器理论上可直接 `make`，然后执行就行。
 
-> 本人在开发的时候，是买了一台阿里云 `v100 gpu卡` + `windows server 2022` 的抢占式实例。如果已经有对应的开发环境，可以不用花这个钱。
+> 本人在开发的时候，用的是本地的 `GTX3080 gpu卡` + `windows11`。
 
-### 连接到服务器
-
-> ssh，你懂的。
 
 ### 安装显卡驱动
 
@@ -188,7 +185,7 @@ TUqEg3dzVEJNQSVW2HY98z5X8SBdhmao8D
 
 <img width="100%" src="screenshot/demo.png?raw=true"/>
 
-> 本程序除了在开发机（一台老旧的 Mac），以及上述 `NVIDIA v100` 显卡上经过测试外，未在其它设备上进行速度测试。
+> 本程序除了在开发机，以及上述 `NVIDIA 3080` 显卡上经过测试外，未在其它设备上进行速度测试。
 
 > 请不要纠结于对比各种设备、各种平台差异化的运行速度。没意义。
 
