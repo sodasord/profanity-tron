@@ -1,4 +1,4 @@
-# profanity.exe-tron
+# profanity-tron
 
 ![](https://img.shields.io/github/actions/workflow/status/sodasord/profanity.exe-tron/release.yml)
 ![](https://img.shields.io/badge/baseon-gpu-yellowgreen.svg)
