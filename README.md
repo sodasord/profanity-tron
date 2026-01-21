@@ -83,7 +83,7 @@ Examples:
 About:
 
   profanity.exe is a vanity address generator for Tron: https://tron.network
-  Please make sure the program you are running is download from: https://github.com/sodasord/profanity.exe-tron
+  Please make sure the program you are running is download from: https://github.com/sodasord/profanity-tron
 
 Fbi Warning:
 
