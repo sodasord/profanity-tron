@@ -33,7 +33,7 @@
 
 > 如果提示 `vcruntime140_1.dll` 相关异常，请安装 `Visual C++ Redistributable` 应用程序，官方下载链接：[https://www.microsoft.com/zh-cn/download/details.aspx?id=48145&751be11f-ede8-5a0c-058c-2ee190a24fa6=True]
 
-> 如果提示 `OpenCL 找不到`，请安装 `英伟达显卡` 驱动。 
+> 如果提示 `OpenCL 找不到`，请安装 `nvidia显卡` 驱动。 
 
 ### Mac
 
