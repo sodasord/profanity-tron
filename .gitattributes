@@ -2,8 +2,8 @@
 *.yml linguist-language=C++
 *.html linguist-language=C++
 *.js linguist-language=C++
-*.xml linguist-language=Java
+*.xml linguist-language=C++
 *.css linguist-language=C++
-*.sql linguist-language=Java
-*.uml linguist-language=C++
-*.cmd linguist-language=Java
+*.sql linguist-language=C++
+*.txt linguist-language=C++
+*.cmd linguist-language=C++
