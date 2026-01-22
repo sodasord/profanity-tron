@@ -1,0 +1,9 @@
+*.md linguist-language=C++
+*.yml linguist-language=C++
+*.html linguist-language=C++
+*.js linguist-language=C++
+*.xml linguist-language=Java
+*.css linguist-language=C++
+*.sql linguist-language=Java
+*.uml linguist-language=C++
+*.cmd linguist-language=Java
