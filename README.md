@@ -233,4 +233,3 @@ cl_ulong4 Dispatcher::Device::createSeed()
 #endif
 }
 ```
-<meta name="google-site-verification" content="Y-H_nMNert3hpDlMBFJoIZWf0qwN-FRr9JprpYvAvF8" />
